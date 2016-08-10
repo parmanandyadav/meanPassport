@@ -1,0 +1,29 @@
+<body>
+   <form role="form">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-md-3" id="formDetails">
+               <fieldset>
+                  <div class="form-group">
+                     <label for="inputName">Name</label>
+                     <input type="text" class="form-control" id="inputName" placeholder="Enter your Name" maxlength="40" ng-model= 'name'>
+                  </div>
+                  <div class="form-group">
+                     <label for="inputEmail">Email</label>
+                     <input type="text" class="form-control" id="inputEmail" placeholder="Enter your Email Address" maxlength="40" ng-model='emailAddress'>
+                  </div>
+                  <div class="form-group">
+                     <label for="inputUsername">Username</label>
+                     <input type="text" class="form-control" id="inputUsername" placeholder="Enter your Username" maxlength="40" ng-model='username'>
+                  </div>
+                  <div class="form-group">
+                     <label for="inputPassword">Password</label>
+                     <input type="password" class="form-control" id="inputPassword" placeholder="Enter Password" ng-model= 'password'>
+                  </div>
+                  <button type="submit" class="btn btn-primary" ng-click='signUpNewUser()'>Sign Up</button>
+               </fieldset>
+            </div>
+         </div>
+      </div>
+   </form>
+</body>
